@@ -1,0 +1,24 @@
+.intro{
+    align-items: center;
+    display: flex;
+    padding: 3rem 6rem;
+}
+
+.intro__text{
+    width: 50%;
+}
+
+.intro__title{
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    width: 80%;
+}
+
+.intro__para{
+    color: var(--dark-grayish-blue);
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    width: 60%;
+}

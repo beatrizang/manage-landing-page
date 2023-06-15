@@ -8,5 +8,14 @@
     --very-pale-red: hsl(13, 100%, 96%);
     --vary-light-gray: hsl(0, 0%, 98%);
 
+    --bright-red-light: hsl(12, 82%, 74%);
+
     --ff-be-vietnam-pro: 'Be Vietnam Pro', sans-serif;
+}
+
+body{
+    background-image: url('../../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 140% -25%;
+    font-family: var(--ff-be-vietnam-pro);
 }
