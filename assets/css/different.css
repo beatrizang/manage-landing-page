@@ -1,0 +1,51 @@
+.different{
+    align-items: flex-start;
+    display: flex;
+    padding: 3rem 6rem;
+    
+}
+.different__left{
+    width: 50%;
+}
+
+.different__title{
+    color: var(--dark-blue);
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.different__param{
+    color: var(--dark-grayish-blue);
+    line-height: 1.5rem;
+    width: 80%;
+}
+
+.different__width{
+    width: 90%;
+}
+
+.different__right{
+    margin-left: 5rem;
+    width: 70%;
+}
+
+.different__item{
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.different__number{
+    background: var(--bright-red);
+    border-radius: 2rem;
+    color: var(--vary-light-gray);
+    margin-right: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.different__subtitle{
+    color: var(--dark-blue);
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
