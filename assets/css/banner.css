@@ -1,0 +1,31 @@
+.banner{
+    align-items: center;
+    background: var(--bright-red);
+    background-image: url('../../images/bg-simplify-section-desktop.svg');
+    background-position: -100% -100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 0rem 6rem;
+    height: 20vh;
+}
+
+.banner__title{
+    color: var(--vary-light-gray);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.button__white{
+    background: var(--vary-light-gray);
+    border-radius: 2rem;
+    color: var(--bright-red);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1rem 2rem;
+}
+
+.button__white:hover{
+    color: var(--bright-red-light);
+}

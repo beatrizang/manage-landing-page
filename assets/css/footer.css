@@ -1,0 +1,13 @@
+.footer{
+    align-items: flex-start;
+    background: var(--very-dark-blue);
+    color: var(--vary-light-gray);
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.socials{
+    display: flex;
+}

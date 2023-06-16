@@ -15,7 +15,7 @@
 
 body{
     background-image: url('../../images/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-position: 140% -25%;
     font-family: var(--ff-be-vietnam-pro);
 }
