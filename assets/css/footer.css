@@ -11,3 +11,83 @@
 .socials{
     display: flex;
 }
+
+.footer__first{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.social__item{
+    font-size: 1.1rem;
+    margin-right: 0.8rem;
+    transition: all linear 0.1s;
+}
+
+.social__item:hover{
+    color: var(--bright-red);
+}
+
+.footer__menu{
+    line-height: 2rem;
+}
+
+.footer__menu__item{
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+.footer__menu__item:hover{
+    color: var(--bright-red);
+}
+
+.footer__contact{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+}
+
+.form__email{
+    background: var(--vary-light-gray);
+    border-radius: 2rem;
+    color: var(--very-dark-blue);
+    height: 2.5rem;
+    width: 250px;
+    margin-right: 1rem;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.form__button{
+    background: var(--bright-red);
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
+
+.form__button:hover{
+    background: var(--bright-red-light);
+}
+
+.form__error{
+    color: var(--red);
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    visibility: hidden;
+}
+
+.footer__copy{
+    color: var(--dark-grayish-blue);
+    font-size: 0.9rem;
+}
