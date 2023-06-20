@@ -35,3 +35,8 @@
 .button__orange:hover{
     background: var(--bright-red-light);
 }
+
+#btn__menu{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
