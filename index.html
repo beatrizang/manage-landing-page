@@ -22,7 +22,9 @@
 <body>
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Manage Logo">
-    <nav class="nav">
+    <div id="back_menu" class="back_menu">
+    </div>
+    <nav id="nav" class="nav">
       <ul class="menu">
         <li class="menu__item"><a href="#">Pricing</a></li>
         <li class="menu__item"><a href="#">Product</a></li>
@@ -36,6 +38,9 @@
     </button>
     <button id="btn__menu">
       <i class="fa-solid fa-bars"></i>
+    </button>
+    <button id="btn__close">
+      <i class="fa-solid fa-x"></i>
     </button>
   </header>
   <main>
@@ -144,7 +149,8 @@
   </main>
   <footer class="footer">
     <div class="footer__first">
-      <img src="./images/logo.svg" alt="Manage Logo">
+      <p class="footer__copy__mb">Copyright 2020. All Rights Reserved</p>
+      <img class="footer__logo" src="./images/logo.svg" alt="Manage Logo">
       <ul class="socials">
         <li class="social__item"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
         <li class="social__item"><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
@@ -153,20 +159,22 @@
         <li class="social__item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
       </ul>
     </div>
-    <div class="footer__column">
-      <ul class="footer__menu">
-        <li class="footer__menu__item"><a href="#">Home</a></li>
-        <li class="footer__menu__item"><a href="#">Pricing</a></li>
-        <li class="footer__menu__item"><a href="#">Products</a></li>
-        <li class="footer__menu__item"><a href="#">About Us</a></li>
-      </ul>
-    </div>
-    <div class="footer__column">
-      <ul class="footer__menu">
-        <li class="footer__menu__item"><a href="#">Careers</a></li>
-        <li class="footer__menu__item"><a href="#">Community</a></li>
-        <li class="footer__menu__item"><a href="#">Privacy Policy</a></li>
-      </ul>
+    <div class="columns">
+      <div class="footer__column">
+        <ul class="footer__menu">
+          <li class="footer__menu__item"><a href="#">Home</a></li>
+          <li class="footer__menu__item"><a href="#">Pricing</a></li>
+          <li class="footer__menu__item"><a href="#">Products</a></li>
+          <li class="footer__menu__item"><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <ul class="footer__menu">
+          <li class="footer__menu__item"><a href="#">Careers</a></li>
+          <li class="footer__menu__item"><a href="#">Community</a></li>
+          <li class="footer__menu__item"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
     </div>
     <div class="footer__contact">
       <div class="footer__inputs">

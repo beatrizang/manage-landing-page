@@ -29,3 +29,43 @@
 .button__white:hover{
     color: var(--bright-red-light);
 }
+
+@media screen and (max-width: 768px) {
+    .banner{
+        background-image: url('../../images/bg-simplify-section-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: 20% -100%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 0rem 1rem;
+        height: 50vh;
+    }
+
+    .banner__title{
+        font-weight: 700;
+        line-height: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner{
+        background-image: url('../../images/bg-simplify-section-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: 0% -100%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 0rem 1rem;
+        height: 50vh;
+    }
+
+    .banner__title{
+        font-weight: 700;
+        line-height: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}

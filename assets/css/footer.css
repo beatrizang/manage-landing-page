@@ -30,6 +30,12 @@
     color: var(--bright-red);
 }
 
+.columns{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
 .footer__menu{
     line-height: 2rem;
 }
@@ -89,4 +95,115 @@
 .footer__copy{
     color: var(--dark-grayish-blue);
     font-size: 0.9rem;
+}
+
+.footer__copy__mb{
+    color: var(--dark-grayish-blue);
+    font-size: 0.9rem;
+    display: none;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: space-between;
+        padding: 3rem 0rem;
+    }
+
+    .footer__first{
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }    
+
+    .socials{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .social__item{
+        font-size: 1.5rem;
+        transition: all linear 0.1s;
+    }
+
+    .columns{
+        padding: 3rem 0;
+        width: 100%;
+    }
+
+    .form__email{
+        width: 250px;
+        margin:0 1rem;
+    }
+
+
+    .footer__logo{
+        margin-top: 2rem;
+        width: 150px;
+    }
+
+    .footer__copy{
+        display: none;
+    }
+
+    .footer__copy__mb{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footer{
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: space-between;
+        padding: 3rem 0rem;
+    }
+
+    .footer__first{
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }    
+
+    .socials{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .social__item{
+        font-size: 1.5rem;
+        transition: all linear 0.1s;
+    }
+
+    .columns{
+        padding: 3rem 0;
+        width: 100%;
+    }
+
+    .form__email{
+        width: 250px;
+        margin:0 1rem;
+    }
+
+
+    .footer__logo{
+        margin-top: 2rem;
+        width: 150px;
+    }
+
+    .footer__copy{
+        display: none;
+    }
+
+    .footer__copy__mb{
+        display: flex;
+    }
 }
