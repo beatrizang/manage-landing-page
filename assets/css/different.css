@@ -2,8 +2,8 @@
     align-items: flex-start;
     display: flex;
     padding: 3rem 6rem;
-    
 }
+
 .different__left{
     width: 50%;
 }
@@ -48,4 +48,28 @@
     color: var(--dark-blue);
     font-weight: 700;
     padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+    .different{
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+
+    .different__left{
+        text-align: center;
+        width: 90%;
+    }
+
+    .different__param{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .different__right{
+        margin-left: 0rem;
+        width: 100%;
+    }
+    
 }

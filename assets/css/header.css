@@ -5,6 +5,10 @@
     padding: 3rem 6rem;
 }
 
+.header__logo{
+    width: 150px;
+}
+
 .menu{
     display: flex;
 }
@@ -39,4 +43,44 @@
 #btn__menu{
     font-size: 1.7rem;
     cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        justify-content: space-between;
+        width: 90%;
+        padding: 3rem 1rem;
+    }
+    .nav{
+        display: none;
+    }
+
+    .button__header{
+        display: none;
+    }
+
+    #btn__menu{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .header{
+        justify-content: space-between;
+        width: 90%;
+        padding: 3rem 1rem;
+    }
+    .nav{
+        display: none;
+    }
+
+    .button__header{
+        display: none;
+    }
+
+    #btn__menu{
+        display: flex;
+    }
 }

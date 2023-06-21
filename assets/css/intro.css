@@ -22,3 +22,55 @@
     padding-bottom: 2rem;
     width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+    .intro{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+
+    .intro__img{
+        width: 100%;
+    }
+
+    .intro__text{
+        width: 90%;
+        text-align: center;
+    }
+
+    .intro__title{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    
+    .intro__para{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+
+    .intro__img{
+        width: 100%;
+    }
+
+    .intro__text{
+        width: 90%;
+        text-align: center;
+    }
+
+    .intro__title{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    
+    .intro__para{
+        width: 90%;
+    }
+}
