@@ -34,7 +34,7 @@
     .banner{
         background-image: url('../../images/bg-simplify-section-desktop.svg');
         background-repeat: no-repeat;
-        background-position: 20% -0%;
+        background-position: 20% 0%;
         flex-direction: column;
         justify-content: center;
         margin-top: 2rem;
