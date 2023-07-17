@@ -136,9 +136,14 @@
         width: 100%;
     }
 
-    .form__email{
-        width: 250px;
-        margin:0 1rem;
+    .footer__contact{
+        align-items: center;
+        width: 100%;
+    }
+    
+    .form{
+        align-items: center;
+        display: flex;
     }
 
 
@@ -184,8 +189,18 @@
     }
 
     .columns{
-        padding: 3rem 0;
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
         width: 100%;
+    }
+
+    .footer__menu__left{
+        padding-left: 3rem;
+    }
+
+    .footer__menu__right{
+        padding-right: 3rem;
     }
 
     .form__email{

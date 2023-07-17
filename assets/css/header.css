@@ -93,7 +93,7 @@
         padding-left: 0rem;
     }
 
-    .button__header{
+    #button__header{
         display: none;
     }
 
@@ -102,7 +102,7 @@
     }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width: 375px){
     .header{
         justify-content: space-between;
         width: 90%;
@@ -132,7 +132,7 @@
         padding-left: 0rem;
     }
 
-    .button__header{
+    #button__header{
         display: none;
     }
 
