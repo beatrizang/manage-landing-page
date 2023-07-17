@@ -52,6 +52,17 @@
 }
 
 @media screen and (max-width: 375px) {
+
+    .testimonial{
+        align-items: center;
+        background: var(--vary-light-gray);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2rem 1rem;
+        padding: 0 1rem 2rem 1rem;
+    }
+
     .testimonials__list{
         display: flex;
         flex-direction: column;
